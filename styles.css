@@ -1,0 +1,79 @@
+:root {
+  --primary-blue1: hsl(225, 100%, 94%);
+  --primary-blue2: hsl(242, 75%, 52%);
+  
+  --neutral-blue1: hsl(225, 100%, 98%);
+  --neutral-gray: hsl(224, 23%, 55%);
+  --neutral-blue2: hsl(223, 47%, 23%); 
+}
+
+html {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 16px;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMPOSITION */
+
+body {
+    display: grid;
+    grid-template-rows: 1fr auto;    
+    min-width: 320px;    
+    place-items: center;  
+    min-height: 100vh;
+    background-color: var(--primary-blue1);
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: auto;
+    margin: 0 auto;     
+}
+
+
+/* UTILITIES */
+
+h1 {
+    font-size: 1.45rem;
+    font-weight: 900;
+}
+
+.container {
+    background-color: var(--neutral-blue1);
+    width: 80%;
+    height: 85%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#top-img {
+    overflow: hidden;
+    min-width: 300px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+/* BLOCKS */
+
+.plan {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+
+}
+
+
+
+/* EXCEPTIONS */

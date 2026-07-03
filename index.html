@@ -3,9 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  
+  <link href="./styles.css" rel="stylesheet">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Order summary card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,15 +20,16 @@
   </style>
 </head>
 <body>
-  <main>
+  <main class="container">
+    <img src="./images/illustration-hero.svg" alt="A person dancing" id="top-img">
     <h1>Order Summary</h1>
 
     <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
     device anywhere you like!</p>
-
-    <p>Annual Plan</p>
-    <p>$59.99/year</p>
-
+    <div class="plan">
+      <p>Annual Plan</p>
+      <p>$59.99/year</p>
+    </div>
     <a href="#">Change</a>
 
     <button type="button">Proceed to Payment</button>
