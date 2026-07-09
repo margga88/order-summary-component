@@ -48,14 +48,14 @@ main {
 
 .plan {   
     display: grid;
-    grid-template-columns: 0.75fr 1.20fr 1.05fr;
+    grid-template-columns: 0.80fr 1fr 1.20fr;
     grid-template-rows: 1fr 1fr;
-    gap: 5px;    
+    gap: 2px 5px;    
     text-align: center;
     align-content: center;
     margin: 10px auto;
     background-color: var(--neutral-blue1);
-    width: 82%;
+    width: 83%;
     height: 14%;
     border-radius: 10px;    
 }
@@ -88,7 +88,7 @@ p {
 }
 
 .main-text {
-    margin: 15px 35px;
+    margin: 15px 45px;
     line-height: 1.7;
     font-size: 0.95rem;
 }
@@ -103,7 +103,7 @@ p {
 #plan-img {
     grid-area: 1 / 1 / 3 / 3;    
     border-radius: 50%;
-    margin: auto 10px;   
+    margin: auto 15px;   
 }
 
 
@@ -126,7 +126,7 @@ p {
     font-size: 0.85rem;
     color: var(--primary-blue2);
     text-align: center;
-    margin: auto 10px;
+    margin: auto -10px auto 10px;
     font-weight: var(--medium-weight);
 }
 
