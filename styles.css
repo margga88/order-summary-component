@@ -1,6 +1,7 @@
 :root {
   --primary-blue1: hsl(225, 100%, 94%);
   --primary-blue2: hsl(245, 75%, 52%);
+  --hover-blue: hsla(245, 75%, 52%, 0.74);
   
   --neutral-blue1: hsl(225, 100%, 98%);
   --neutral-gray: hsl(224, 23%, 55%);
@@ -127,7 +128,7 @@ p {
     color: var(--primary-blue2);
     text-align: center;
     margin: auto -10px auto 10px;
-    font-weight: var(--medium-weight);
+    font-weight: var(--heavy-weight);
 }
 
 
@@ -136,7 +137,7 @@ p {
 #payment-btn {
     border: none;
     border-radius: 10px;
-    /* box-shadow: */
+    box-shadow: 5px 10px 20px 7px var(--primary-blue1);
     background-color: var(--primary-blue2);
     color: white;
     font-weight: var(--medium-weight);    
@@ -157,6 +158,21 @@ p {
 
 
 /* EXCEPTIONS */
+
+#change:hover {
+    text-decoration: none;
+    color: var(--hover-blue);
+}
+
+#payment-btn:hover {
+    cursor: pointer;
+    background-color: var(--hover-blue);
+}
+
+#cancel:hover {
+    color: var(--neutral-blue2);
+}
+
 
 @media only screen and (min-width: 1024px) {
 
