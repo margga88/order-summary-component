@@ -61,6 +61,16 @@ main {
     border-radius: 10px;    
 }
 
+.btn {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.25fr 1fr;
+    gap: 10px;
+    height: 100px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
 
 /* UTILITIES */
 
@@ -83,7 +93,7 @@ p {
 .container {
     background-color: white;
     width: 89%;
-    height: 82%;
+    height: auto;
     border-radius: 20px;
     text-align: center;    
 }
@@ -143,8 +153,8 @@ p {
     font-weight: var(--medium-weight);    
     font-size: 0.95rem;
     width: 82%;
-    height: 9%;
-    margin: 10px auto;
+    height: 100%;
+    margin: auto;
 }
 
 #cancel {
