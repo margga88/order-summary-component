@@ -222,7 +222,50 @@ p {
     }
 
     .container {
-        width: 30%;
-        height: 75%;
+        /* keep working here */
+        width: 450px;
+        height: 675px;
+        box-shadow: 0px 10px 25px 1px var(--neutral-gray);        
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    p {
+        font-size: 1.05rem;
+    }
+
+    .main-text {
+        margin: 15px 65px;
+    }
+
+    .plan {
+        width: 80%;
+        grid-template-columns: 0.55fr max-content 1.20fr;
+    }
+
+    .btn {
+        width: 80%;
+        margin: 12px auto 24px;
+    }
+
+    #payment-btn {
+        width: 100%;
+    }
+
+    #price,
+    #a-plan {
+        font-size: 1rem;
+    }
+
+    #a-plan {
+        padding-top: 20px;
+    }
+
+    #change {
+        font-size: 0.95rem;
+        margin: auto 30px auto;
+        text-align: right;
     }
 }
