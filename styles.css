@@ -12,17 +12,14 @@
   --heavy-weight: 900;
 }
 
-html {
-    font-family: "Red Hat Display", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 16px;
-    font-style: normal;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 16px;
+    font-style: normal;
 }
 
 /* COMPOSITION */
@@ -160,7 +157,7 @@ p {
     background-color: var(--primary-blue2);
     color: white;
     font-weight: var(--medium-weight);    
-    font-size: 0.95rem;
+    font-size: 0.95rem;    
     width: 82%;
     height: 100%;
     margin: auto;

@@ -3,6 +3,12 @@
 *.fig
 *.xd
 
+# IMGs
+photothumb.db
+screen375.png
+screen768.png
+screen1440.png
+
 # Dependencies
 /node_modules
 /.pnp
@@ -41,3 +47,4 @@ Thumbs.db
 AGENTS.md
 CLAUDE.md 
 README-template.md
+README-template copy.md
