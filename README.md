@@ -30,9 +30,9 @@ Users should be able to:
 ![](./preview.jpg)
 ![](./screenpreview.png)
 
-Mobile: 375px
-Tablet: 768px
-Desktop: 1440px
+- Mobile: 375px
+- Tablet: 768px
+- Desktop: 1440px
 
 ### Links
 
