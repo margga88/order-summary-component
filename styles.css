@@ -18,7 +18,7 @@
     box-sizing: border-box;
     font-family: "Red Hat Display", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 16px;
+    font-weight: var(--normal-weight);
     font-style: normal;
 }
 
@@ -117,7 +117,7 @@ p {
 
 
 
-#a-plan {
+.a-plan {
     grid-area: 1 / 2 / 2 / 3;
     font-size: 0.90rem;
     font-weight: var(--heavy-weight);
@@ -125,7 +125,7 @@ p {
     padding-top: 17px;
 }
 
-#price {
+.price {
     grid-area: 2 / 2 / 3 / 3;
     font-size: 0.95rem;    
 }
