@@ -16,8 +16,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -30,9 +28,9 @@ Users should be able to:
 ![](./preview.jpg)
 ![](./screenpreview.png)
 
-- Mobile: 375px
-- Tablet: 768px
-- Desktop: 1440px
+- Mobile (center): 375px
+- Tablet (right): 768px
+- Desktop (left): 1440px
 
 ### Links
 
