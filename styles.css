@@ -20,14 +20,14 @@
     font-optical-sizing: auto;
     font-weight: var(--normal-weight);
     font-style: normal;
+    font-size: 16px;
 }
 
 /* COMPOSITION */
 
 body {
     display: grid;
-    grid-template-rows: 1fr auto;    
-    /* min-width: 375px; */    
+    grid-template-rows: 1fr auto;       
     place-items: center;  
     min-height: 100vh;
     background-color: var(--primary-blue1);
@@ -39,7 +39,6 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    /* min-width: 375px; */
     height: auto;
     margin: 0 auto;     
 }
@@ -54,7 +53,6 @@ main {
     margin: 10px auto;
     background-color: var(--neutral-blue1);
     width: 83%;
-    /* height: 14%; */
     border-radius: 10px;    
 }
 
@@ -63,7 +61,6 @@ main {
     grid-template-columns: 1fr;
     grid-template-rows: 1.25fr 1fr;
     gap: 10px;
-    /* height: 100px; */
     margin-top: 12px;
     margin-bottom: 24px;
 }
@@ -90,7 +87,6 @@ p {
 .container {
     width: min(100% - 2rem, 450px);
     background-color: white;
-    width: 89%;
     height: auto;
     border-radius: 20px;
     text-align: center;
@@ -107,7 +103,6 @@ p {
 #top-img {
     overflow: hidden;
     width: 100%;
-    /* min-width: 375px; */
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -146,7 +141,8 @@ p {
     text-align: center; 
 }
 
-.attribution a { 
+.attribution a {
+    font-size: 0.6875rem; 
     color: hsl(228, 45%, 44%); 
 }
 
@@ -161,7 +157,6 @@ p {
     font-weight: var(--medium-weight);    
     font-size: 0.95rem;    
     width: 82%;
-    /* height: 100%; */
     padding-block: 1rem;
     margin: auto;
 }
@@ -191,23 +186,6 @@ p {
 #cancel:hover {
     color: var(--neutral-blue2);
 }
-/*
-
-@media only screen and (min-width: 320px) and (max-width: 480px){
-    body {
-         min-width: 320px;
-    }
-
-    main{
-        min-width: 320px;
-    }
-
-    #top-img {
-         min-width: 300px; 
-    }
-}
-
-*/
 
 @media only screen and (width > 480px){
 
@@ -219,6 +197,11 @@ p {
     .container {        
         width: 450px;
         height: 675px;          
+    }
+
+    .btn {
+        width: 97%;
+        margin: 12px auto 24px auto;
     }
 
     h1 {
@@ -254,10 +237,7 @@ p {
         text-align: right;
     }
 
-
-
 }
-
 
 @media only screen and (min-width: 1024px) {
 
